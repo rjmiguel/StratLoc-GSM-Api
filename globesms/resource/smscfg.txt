@@ -1,0 +1,7 @@
+[CONFIG]
+#communication timeout for the GSM modem
+gsm_wait = 5
+#Port where the GSM modem is connected (COM1 = 0, COM2 = 1)
+modem_port = 0
+#Time in seconds before successive checks for recieved sms
+sleeptime = 10
